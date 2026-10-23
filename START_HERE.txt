@@ -1,0 +1,5 @@
+MallWay runnable project
+
+Extract this archive, then open the MallWay folder and double-click start-windows.bat. Python 3.8 or newer is required.
+
+The product is intended for malls across Malaysia. KL East Mall supplies the current working demo. This smaller download omits the presentation documents and Git-history bundle; application files and original map assets are included.

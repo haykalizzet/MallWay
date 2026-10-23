@@ -1,0 +1,15 @@
+{
+  "name": "mallway",
+  "version": "2.2.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/navigation.mjs && node --check dist/bootstrap.js && node --check dist/camera.mjs && node --check dist/app.mjs && node --check dist/core.mjs && node --check dist/sw.js && node --check dist/plan-network.mjs",
+    "format": "prettier --write dist/*.mjs dist/bootstrap.js dist/sw.js dist/*.html dist/*.css tests/*.mjs package.json",
+    "format:check": "prettier --check dist/*.mjs dist/bootstrap.js dist/sw.js dist/*.html dist/*.css tests/*.mjs package.json"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

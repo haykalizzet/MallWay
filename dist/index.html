@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#122126" />
+    <meta
+      name="description"
+      content="MallWay is designed for indoor navigation across malls in Malaysia. Explore the KL East Mall demo, plan shop journeys and save parking checkpoints."
+    />
+    <title>MallWay · Mall Navigation for Malaysia</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to planner</a>
+    <div id="app">
+      <div class="boot">
+        <span class="brand-symbol">↗</span>
+        <h1>MallWay</h1>
+        <p id="boot-status" role="status">Starting MallWay…</p>
+        <noscript>Enable JavaScript to open MallWay.</noscript>
+      </div>
+    </div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="dialog"><div id="dialog-content"></div></dialog>
+    <script src="assets/qrcode.js"></script>
+    <script src="bootstrap.js" defer></script>
+  </body>
+</html>
